@@ -11,3 +11,7 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+
+## Test coverage
+
+[![Coverage Status](https://coveralls.io/repos/github/GhostDirector/COMP.SE.200-2020-assignment/badge.svg?branch=add-coveralls)](https://coveralls.io/github/GhostDirector/COMP.SE.200-2020-assignment?branch=add-coveralls)
