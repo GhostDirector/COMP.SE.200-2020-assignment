@@ -1,5 +1,7 @@
 import toNumber from '../src/toNumber.js'
 
-xtest('toNumber', () => {
-
+test('returns a number', () => {
+  expect(toNumber(2)).toEqual(2);
+  expect(toNumber('2')).toEqual(2);
+  expect(toNumber(Infinity)).toEqual(Infinity);
 });
