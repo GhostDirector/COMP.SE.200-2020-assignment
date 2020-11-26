@@ -14,4 +14,4 @@ Individuals who remove or modify the license file will also carry the consequenc
 
 ## Test coverage
 
-[![Coverage Status](https://coveralls.io/repos/github/GhostDirector/COMP.SE.200-2020-assignment/badge.svg?branch=add-coveralls)](https://coveralls.io/github/GhostDirector/COMP.SE.200-2020-assignment?branch=add-coveralls)
+[![Coverage Status](https://coveralls.io/repos/github/GhostDirector/COMP.SE.200-2020-assignment/badge.svg?branch=master)](https://coveralls.io/github/GhostDirector/COMP.SE.200-2020-assignment?branch=master)
