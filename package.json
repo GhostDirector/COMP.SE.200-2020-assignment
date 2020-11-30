@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "jest": {
+    "testPathIgnorePatterns" : [
+      "src/.internal/" 
+    ]
+  },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
