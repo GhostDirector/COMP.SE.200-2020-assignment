@@ -7,7 +7,7 @@ test('returns a finite', () => {
   expect(toFinite(Infinity)).toEqual(1.7976931348623157e+308);
 });
 
-test('returns 0 with undefined values', () => {
+test('returns 0 with undefined parameters', () => {
   expect(toFinite(undefined)).toEqual(0);
   expect(toFinite(null)).toEqual(0);
   expect(toFinite([])).toEqual(0);
