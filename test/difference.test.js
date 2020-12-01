@@ -48,6 +48,6 @@ test(`Returns null with parameters: undefined, [1, 4, 5]`, () => {
     expect(difference(undefined, [1, 4, 5])).toBeNull();
 });
 
-test(`Returns "lo" with parameters: "hello", "hel"`, () => {
+test(`Returns null with parameters: "hello", "hel"`, () => {
     expect(difference("hello", "hel")).toBeNull();
 });
