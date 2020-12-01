@@ -29,7 +29,7 @@ test(`Returns 3 with parameters: 3, 20`, () => {
 });
 
 test(`Returns null with parameters: "hello", null`, () => {
-    expect(defaultTo("hello", null)).toBeNaN();
+    expect(defaultTo("hello", null)).toBeNull();
 });
 
 test(`Returns null with parameters: null, null`, () => {
