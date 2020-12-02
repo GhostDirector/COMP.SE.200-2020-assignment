@@ -17,18 +17,18 @@ test(`Returns true with parameters: 'a', 'a'`, () => {
     expect(eq('a', 'a')).toEqual(true);
 });
 
-test(`Returns false with parameters: 'a', Object('a')`, () => {
-    expect(eq('a', Object('a'))).toEqual(false);
+test(`Returns true with parameters: 'a', Object('a')`, () => {
+    expect(eq('a', Object('a'))).toEqual(true);
 });
 
 test(`Returns true with parameters: NaN, NaN`, () => {
-    expect(eq(NaN, NaN)).toEqual(false);
+    expect(eq(NaN, NaN)).toEqual(true);
 });
 
 test(`Returns true with parameters: undefined, undefined`, () => {
     expect(eq(undefined, undefined)).toStrictEqual(true);
 });
 
-test(`Returns false with parameters: undefined, null`, () => {
-    expect(eq(undefined, null)).toStrictEqual(false);
+test(`Returns true with parameters: undefined, null`, () => {
+    expect(eq(undefined, null)).toEqual(true);
 });
